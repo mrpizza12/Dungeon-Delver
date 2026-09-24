@@ -521,6 +521,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1425445959}
   - component: {fileID: 1425445958}
+  - component: {fileID: 1425445960}
+  - component: {fileID: 1425445961}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -556,6 +558,31 @@ Transform:
   - {fileID: 390362605}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1425445960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425445957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1139893c5b3cd724182ceee3333dae8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MapInfo
+  delverLevel: {fileID: 4900000, guid: 6e019663848454368b14fc96468cbbe2, type: 3}
+--- !u!114 &1425445961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425445957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c5fa7683c79bf4eb3c56b514af83d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TilemapManager
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
